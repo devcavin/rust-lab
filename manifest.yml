@@ -5,7 +5,7 @@ modules:
       resolver:
         function: resolver
       render: native
-      title: Forg app for Cavin
+      title: Forge app for Cavin
       icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
   function:
     - key: resolver
@@ -19,3 +19,6 @@ app:
     memoryMB: 256
     architecture: arm64
   id: ari:cloud:ecosystem::app/de714873-eade-4723-b17b-a84ee36ecb75
+permissions:
+  scopes:
+    - read:jira-work
