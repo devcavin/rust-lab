@@ -24,7 +24,12 @@ const App = () => {
         }
     }, [context]);
 
-    return <Text>Number of comments: {comments?.length}</Text>
+    return (
+        <>
+            <Text>Text from Forge App</Text>
+            <Text>Number of comments on this issue: {comments?.length}</Text>
+        </>
+    );
 }
 
 ForgeReconciler.render(
